@@ -1,0 +1,107 @@
+\doxysection{Main\+Menu Class Reference}
+\label{class_main_menu}\index{MainMenu@{MainMenu}}
+
+
+Klasa odpowiadajaca za Menu tytulowe gry.  
+
+
+
+
+{\ttfamily \#include $<$Main\+Menu.\+h$>$}
+
+Inheritance diagram for Main\+Menu\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_main_menu}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Main\+Menu} ()
+\item 
+\textbf{ $\sim$\+Main\+Menu} ()
+\item 
+void \textbf{ Draw\+Menu} ()
+\item 
+void \textbf{ Show\+Rules} ()
+\item 
+std\+::string \textbf{ get\+Chosen\+File} (std\+::string index)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \textbf{ answer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa odpowiadajaca za Menu tytulowe gry. 
+
+Nie robi zbyt wiele oprocz rysowania Menu Tytulowego na ekranie i odpalania gry. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_main_menu_a53eecf9d5ffd094f54ac4193e7e57eaf}} 
+\index{MainMenu@{MainMenu}!MainMenu@{MainMenu}}
+\index{MainMenu@{MainMenu}!MainMenu@{MainMenu}}
+\doxysubsubsection{MainMenu()}
+{\footnotesize\ttfamily Main\+Menu\+::\+Main\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Konstruktor. Ustawia zmienna answer na \char`\"{}\char`\"{}. \begin{DoxySeeAlso}{See also}
+\doxyref{answer}{p.}{class_main_menu_ab48caa1bb7305d0adfde94b98f5ea397} 
+\end{DoxySeeAlso}
+\mbox{\label{class_main_menu_a0a19ddba3ac52bf39c09b579171c98f2}} 
+\index{MainMenu@{MainMenu}!````~MainMenu@{$\sim$MainMenu}}
+\index{````~MainMenu@{$\sim$MainMenu}!MainMenu@{MainMenu}}
+\doxysubsubsection{$\sim$MainMenu()}
+{\footnotesize\ttfamily Main\+Menu\+::$\sim$\+Main\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Dekonstruktor. Nic ciekawego nie robi. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_main_menu_a209e9bb09339454a93b79689995ac1d4}} 
+\index{MainMenu@{MainMenu}!DrawMenu@{DrawMenu}}
+\index{DrawMenu@{DrawMenu}!MainMenu@{MainMenu}}
+\doxysubsubsection{DrawMenu()}
+{\footnotesize\ttfamily void Main\+Menu\+::\+Draw\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja wypisujaca Menu Tytulowe gry. W zaleznosci od wyboru gracza wywoluje poszczegolna wersje gry. \begin{DoxySeeAlso}{See also}
+\doxyref{Yahtzee\+Game\+Start}{p.}{class_yahtzee_game_a4d1d7e285965802c79dbbddccc879355} 
+
+\doxyref{load\+The\+Game}{p.}{class_yahtzee_game_a4c5c9a3371e0cc45e551bf17c25f99ac} 
+\end{DoxySeeAlso}
+\mbox{\label{class_main_menu_a937830726431abbdc3110c02eebd2164}} 
+\index{MainMenu@{MainMenu}!getChosenFile@{getChosenFile}}
+\index{getChosenFile@{getChosenFile}!MainMenu@{MainMenu}}
+\doxysubsubsection{getChosenFile()}
+{\footnotesize\ttfamily std\+::string Main\+Menu\+::get\+Chosen\+File (\begin{DoxyParamCaption}\item[{std\+::string}]{index }\end{DoxyParamCaption})}
+
+Funkcja zwracajaca poszczegolny plik zapisu. 
+\begin{DoxyParams}{Parameters}
+{\em index} & Numer zapisanego pliku od 1 do 3. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nazwa pliku zapisu 
+\end{DoxyReturn}
+\mbox{\label{class_main_menu_aa1eec613068bd69e8570f596c2ddb86e}} 
+\index{MainMenu@{MainMenu}!ShowRules@{ShowRules}}
+\index{ShowRules@{ShowRules}!MainMenu@{MainMenu}}
+\doxysubsubsection{ShowRules()}
+{\footnotesize\ttfamily void Main\+Menu\+::\+Show\+Rules (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja wypisujaca na ekranie zasady gry w kosci. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\label{class_main_menu_ab48caa1bb7305d0adfde94b98f5ea397}} 
+\index{MainMenu@{MainMenu}!answer@{answer}}
+\index{answer@{answer}!MainMenu@{MainMenu}}
+\doxysubsubsection{answer}
+{\footnotesize\ttfamily std\+::string Main\+Menu\+::answer\hspace{0.3cm}{\ttfamily [private]}}
+
+Zmienna przechowujaca odpowiedz gracza. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Main\+Menu.\+h}\item 
+\textbf{ Main\+Menu.\+cpp}\end{DoxyCompactItemize}

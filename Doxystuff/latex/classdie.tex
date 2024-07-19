@@ -1,0 +1,106 @@
+\doxysection{die Class Reference}
+\label{classdie}\index{die@{die}}
+
+
+Klasa bedaca pojedyncza koscia do gry.  
+
+
+
+
+{\ttfamily \#include $<$Die.\+h$>$}
+
+Inheritance diagram for die\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classdie}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \textbf{ Roll} ()
+\item 
+void \textbf{ set} (int \&number\+On\+Die)
+\item 
+int \textbf{ Get\+Number} ()
+\item 
+\textbf{ die} ()
+\item 
+\textbf{ $\sim$die} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ number}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa bedaca pojedyncza koscia do gry. 
+
+Typ kosci\+: D6. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{classdie_a24a3f92396dff97337735bbef9f6176d}} 
+\index{die@{die}!die@{die}}
+\index{die@{die}!die@{die}}
+\doxysubsubsection{die()}
+{\footnotesize\ttfamily die\+::die (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Konstruktor. Ustawia numer na 1. \begin{DoxySeeAlso}{See also}
+\doxyref{number}{p.}{classdie_ac3e692a927b4329d45885969f5cd0a95} 
+\end{DoxySeeAlso}
+\mbox{\label{classdie_a6d9f055aa8cef5029a8accc76dd57a10}} 
+\index{die@{die}!````~die@{$\sim$die}}
+\index{````~die@{$\sim$die}!die@{die}}
+\doxysubsubsection{$\sim$die()}
+{\footnotesize\ttfamily die\+::$\sim$die (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destruktor. Nie za wiele robi ale i tak go kochamy. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{classdie_aa501130f0a8f1110f65bdd6fad28317c}} 
+\index{die@{die}!GetNumber@{GetNumber}}
+\index{GetNumber@{GetNumber}!die@{die}}
+\doxysubsubsection{GetNumber()}
+{\footnotesize\ttfamily int die\+::\+Get\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zwracajaca numer na kosci. \begin{DoxyReturn}{Returns}
+Liczba oczek na kosci 
+\end{DoxyReturn}
+\mbox{\label{classdie_a771930cfd6f8e9be39a59fb5fc6b371d}} 
+\index{die@{die}!Roll@{Roll}}
+\index{Roll@{Roll}!die@{die}}
+\doxysubsubsection{Roll()}
+{\footnotesize\ttfamily void die\+::\+Roll (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Wirtualna funkcja do losowania ilosci oczek. 
+
+Reimplemented in \textbf{ dice} \doxyref{}{p.}{classdice_a8086e5de4cfc30e8a99f94f8e8d3da24}.
+
+\mbox{\label{classdie_aaeac7a1fdb892839699c27ab7ddc0acf}} 
+\index{die@{die}!set@{set}}
+\index{set@{set}!die@{die}}
+\doxysubsubsection{set()}
+{\footnotesize\ttfamily void die\+::set (\begin{DoxyParamCaption}\item[{int \&}]{number\+On\+Die }\end{DoxyParamCaption})}
+
+Funkcja ustawiajaca numer oczek na podany. 
+\begin{DoxyParams}{Parameters}
+{\em number\+On\+Die} & Podana liczba oczek \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\label{classdie_ac3e692a927b4329d45885969f5cd0a95}} 
+\index{die@{die}!number@{number}}
+\index{number@{number}!die@{die}}
+\doxysubsubsection{number}
+{\footnotesize\ttfamily int die\+::number\hspace{0.3cm}{\ttfamily [private]}}
+
+Zmienna przechowujaca ilosc oczek ktore wypadly. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Die.\+h}\item 
+\textbf{ die.\+cpp}\end{DoxyCompactItemize}

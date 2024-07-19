@@ -1,0 +1,246 @@
+\doxysection{Yahtzee\+Game Class Reference}
+\label{class_yahtzee_game}\index{YahtzeeGame@{YahtzeeGame}}
+
+
+Klasa ktora jest calym kontrolerem gry w kosci.  
+
+
+
+
+{\ttfamily \#include $<$Yahtzee.\+h$>$}
+
+Inheritance diagram for Yahtzee\+Game\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_yahtzee_game}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::map$<$ std\+::string, std\+::shared\+\_\+ptr$<$ \textbf{ scorecard} $>$ $>$ \& \textbf{ get\+Scorecards} ()
+\item 
+std\+::shared\+\_\+ptr$<$ \textbf{ scorecard} $>$ \textbf{ get\+Scorecard} (std\+::string \&name)
+\item 
+int \textbf{ get\+Player\+Count} ()
+\item 
+void \textbf{ get\+Players\+Scorecard} ()
+\item 
+void \textbf{ Yahtzee\+Game\+Start} ()
+\item 
+void \textbf{ Yahtzee\+Game\+Start} (int round\+From\+File, std\+::string current\+PlayerS)
+\item 
+int \textbf{ Yahtzee\+Menu} (std\+::shared\+\_\+ptr$<$ \textbf{ scorecard} $>$ \&current\+Player\+Scorecard, std\+::shared\+\_\+ptr$<$ \textbf{ dice} $>$ current\+Player\+Dice, int current\+Player, int crr\+Round)
+\item 
+bool \textbf{ is\+Game\+Done} ()
+\item 
+void \textbf{ Yahtzee\+Game\+End} ()
+\item 
+void \textbf{ write\+Scorecard\+To\+File} ()
+\item 
+void \textbf{ write\+Scorecard\+To\+File} (std\+::string \&save\+Index, int current\+Player, std\+::shared\+\_\+ptr$<$ \textbf{ dice} $>$ current\+Player\+Dice, int crr\+Round)
+\item 
+void \textbf{ load\+The\+Game} (std\+::string \&filename)
+\item 
+\textbf{ Yahtzee\+Game} ()
+\item 
+\textbf{ $\sim$\+Yahtzee\+Game} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::map$<$ std\+::string, std\+::shared\+\_\+ptr$<$ \textbf{ scorecard} $>$ $>$ \textbf{ scorecard\+Holder}
+\item 
+std\+::vector$<$ std\+::string $>$ \textbf{ players}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa ktora jest calym kontrolerem gry w kosci. 
+
+Zajmuje sie ona wszystkim\+: Pilnuje gry, czynow graczy, wynikow itp. Zdecydowanie najwieksza i najbardziej rozbudowana klasa w programie 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_yahtzee_game_af4ff52ccce0c242c250e18ed40b4c849}} 
+\index{YahtzeeGame@{YahtzeeGame}!YahtzeeGame@{YahtzeeGame}}
+\index{YahtzeeGame@{YahtzeeGame}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{YahtzeeGame()}
+{\footnotesize\ttfamily Yahtzee\+Game\+::\+Yahtzee\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Konstruktor. Tyle. \mbox{\label{class_yahtzee_game_ad450ef0385126d443859e13be3227cf3}} 
+\index{YahtzeeGame@{YahtzeeGame}!````~YahtzeeGame@{$\sim$YahtzeeGame}}
+\index{````~YahtzeeGame@{$\sim$YahtzeeGame}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{$\sim$YahtzeeGame()}
+{\footnotesize\ttfamily Yahtzee\+Game\+::$\sim$\+Yahtzee\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Dekonstruktor. Mowi ze gra sie zakonczyla. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_yahtzee_game_ad7563bf89c2107dc678c74a7c0d00d82}} 
+\index{YahtzeeGame@{YahtzeeGame}!getPlayerCount@{getPlayerCount}}
+\index{getPlayerCount@{getPlayerCount}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{getPlayerCount()}
+{\footnotesize\ttfamily int Yahtzee\+Game\+::get\+Player\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zwracajaca ilosc graczy. \begin{DoxyReturn}{Returns}
+Liczba grajacych osob 
+\end{DoxyReturn}
+\mbox{\label{class_yahtzee_game_a84b9908e3b493be4ecef4b60ecffe48a}} 
+\index{YahtzeeGame@{YahtzeeGame}!getPlayersScorecard@{getPlayersScorecard}}
+\index{getPlayersScorecard@{getPlayersScorecard}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{getPlayersScorecard()}
+{\footnotesize\ttfamily void Yahtzee\+Game\+::get\+Players\+Scorecard (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zajmujaca sie wypisywaniem karty podanego gracza. \mbox{\label{class_yahtzee_game_ad1ee3b39cb6605966fa21b00ae8736fa}} 
+\index{YahtzeeGame@{YahtzeeGame}!getScorecard@{getScorecard}}
+\index{getScorecard@{getScorecard}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{getScorecard()}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$ \textbf{ scorecard} $>$ Yahtzee\+Game\+::get\+Scorecard (\begin{DoxyParamCaption}\item[{std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+Funkcja zwracajaca wskaznik na karte podanego gracza. 
+\begin{DoxyParams}{Parameters}
+{\em name} & Imie gracza \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wskaznik na karte tego gracza 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\doxyref{scorecard\+Holder}{p.}{class_yahtzee_game_a296c3b61c359442c997a78802de0c007} 
+\end{DoxySeeAlso}
+\mbox{\label{class_yahtzee_game_ace09de007c4fa81276cb72690547fb54}} 
+\index{YahtzeeGame@{YahtzeeGame}!getScorecards@{getScorecards}}
+\index{getScorecards@{getScorecards}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{getScorecards()}
+{\footnotesize\ttfamily std\+::map$<$ std\+::string, std\+::shared\+\_\+ptr$<$ \textbf{ scorecard} $>$ $>$ \& Yahtzee\+Game\+::get\+Scorecards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zwracajaca mape. \begin{DoxySeeAlso}{See also}
+\doxyref{scorecard\+Holder}{p.}{class_yahtzee_game_a296c3b61c359442c997a78802de0c007} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+Mapa z wskaznikami 
+\end{DoxyReturn}
+\mbox{\label{class_yahtzee_game_ae796977db93f1082a744c305abcca215}} 
+\index{YahtzeeGame@{YahtzeeGame}!isGameDone@{isGameDone}}
+\index{isGameDone@{isGameDone}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{isGameDone()}
+{\footnotesize\ttfamily bool Yahtzee\+Game\+::is\+Game\+Done (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja sprawdzajaca czy gre nalezy zakonczyc. Sprawdza czy wszystkie pola w kartach graczy zostaly zapisane. \begin{DoxyReturn}{Returns}
+True albo false. W wiekszosci przypadkow False 
+\end{DoxyReturn}
+\mbox{\label{class_yahtzee_game_a4c5c9a3371e0cc45e551bf17c25f99ac}} 
+\index{YahtzeeGame@{YahtzeeGame}!loadTheGame@{loadTheGame}}
+\index{loadTheGame@{loadTheGame}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{loadTheGame()}
+{\footnotesize\ttfamily void Yahtzee\+Game\+::load\+The\+Game (\begin{DoxyParamCaption}\item[{std\+::string \&}]{filename }\end{DoxyParamCaption})}
+
+Funkcja wczytujaca zapisany stan gry. 
+\begin{DoxyParams}{Parameters}
+{\em filename} & Nazwa pliku z ktorego wczytujemy stan gry \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_yahtzee_game_af5f7b28e89c0815dc36d292d83804d14}} 
+\index{YahtzeeGame@{YahtzeeGame}!writeScorecardToFile@{writeScorecardToFile}}
+\index{writeScorecardToFile@{writeScorecardToFile}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{writeScorecardToFile()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Yahtzee\+Game\+::write\+Scorecard\+To\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja wpisujaca karty graczy i wyniki do pliku txt. \begin{DoxySeeAlso}{See also}
+\doxyref{Yahtzee\+Game\+End}{p.}{class_yahtzee_game_ad12bdbac2ddb3b37a7b3aec60258f210} 
+\end{DoxySeeAlso}
+\mbox{\label{class_yahtzee_game_a7972ae2f36c0e9c00ce04cefda0c0f4b}} 
+\index{YahtzeeGame@{YahtzeeGame}!writeScorecardToFile@{writeScorecardToFile}}
+\index{writeScorecardToFile@{writeScorecardToFile}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{writeScorecardToFile()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Yahtzee\+Game\+::write\+Scorecard\+To\+File (\begin{DoxyParamCaption}\item[{std\+::string \&}]{save\+Index,  }\item[{int}]{current\+Player,  }\item[{std\+::shared\+\_\+ptr$<$ \textbf{ dice} $>$}]{current\+Player\+Dice,  }\item[{int}]{crr\+Round }\end{DoxyParamCaption})}
+
+Przeciazona funkcja ktora zapisuje stan gry. Zapisuje runde, aktualnego gracza i dane kart wynikow graczy. 
+\begin{DoxyParams}{Parameters}
+{\em save\+Index} & Indeks do ktorego pliku zapisac stan gry \\
+\hline
+{\em current\+Player} & Indeks aktualnego gracza \\
+\hline
+{\em current\+Player\+Dice} & Zestaw kosci aktualnego gracza \\
+\hline
+{\em crr\+Round} & Aktualna runda \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\doxyref{Yahtzee\+Menu}{p.}{class_yahtzee_game_a2f6b9033d0cd4ba4649e3fd7af03e0ff} 
+\end{DoxySeeAlso}
+\mbox{\label{class_yahtzee_game_ad12bdbac2ddb3b37a7b3aec60258f210}} 
+\index{YahtzeeGame@{YahtzeeGame}!YahtzeeGameEnd@{YahtzeeGameEnd}}
+\index{YahtzeeGameEnd@{YahtzeeGameEnd}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{YahtzeeGameEnd()}
+{\footnotesize\ttfamily void Yahtzee\+Game\+::\+Yahtzee\+Game\+End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zajmujaca sie zakonczeniem gry. Zpisuje i sortuje wyniki, wypisuje je z fanfarami i zapisuje je do pliku txt. \begin{DoxySeeAlso}{See also}
+\doxyref{write\+Scorecard\+To\+File}{p.}{class_yahtzee_game_af5f7b28e89c0815dc36d292d83804d14} 
+
+\doxyref{compare\+Pairs}{p.}{_functions_8cpp_a277b429e93c5cba7d7398f0928f100a8} ~\newline
+ 
+\end{DoxySeeAlso}
+\mbox{\label{class_yahtzee_game_a4d1d7e285965802c79dbbddccc879355}} 
+\index{YahtzeeGame@{YahtzeeGame}!YahtzeeGameStart@{YahtzeeGameStart}}
+\index{YahtzeeGameStart@{YahtzeeGameStart}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{YahtzeeGameStart()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Yahtzee\+Game\+::\+Yahtzee\+Game\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja startujaca gre. Startuje kompletnie nowa gra z wybrana iloscia osob. \mbox{\label{class_yahtzee_game_a71d4f44e63fd0fe985cf64f13e89154f}} 
+\index{YahtzeeGame@{YahtzeeGame}!YahtzeeGameStart@{YahtzeeGameStart}}
+\index{YahtzeeGameStart@{YahtzeeGameStart}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{YahtzeeGameStart()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Yahtzee\+Game\+::\+Yahtzee\+Game\+Start (\begin{DoxyParamCaption}\item[{int}]{round\+From\+File,  }\item[{std\+::string}]{current\+PlayerS }\end{DoxyParamCaption})}
+
+Przeciazona funkcja startujaca gre. Przyjmuje parametry zwiazane z zapisana wczesniej gra. 
+\begin{DoxyParams}{Parameters}
+{\em round\+From\+File} & Aktualna runda zczytana z pliku zapisu \\
+\hline
+{\em current\+PlayerS} & Imie aktualnego gracza (tego ktory zapisal) \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\doxyref{load\+The\+Game}{p.}{class_yahtzee_game_a4c5c9a3371e0cc45e551bf17c25f99ac} 
+\end{DoxySeeAlso}
+\mbox{\label{class_yahtzee_game_a2f6b9033d0cd4ba4649e3fd7af03e0ff}} 
+\index{YahtzeeGame@{YahtzeeGame}!YahtzeeMenu@{YahtzeeMenu}}
+\index{YahtzeeMenu@{YahtzeeMenu}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{YahtzeeMenu()}
+{\footnotesize\ttfamily int Yahtzee\+Game\+::\+Yahtzee\+Menu (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \textbf{ scorecard} $>$ \&}]{current\+Player\+Scorecard,  }\item[{std\+::shared\+\_\+ptr$<$ \textbf{ dice} $>$}]{current\+Player\+Dice,  }\item[{int}]{current\+Player,  }\item[{int}]{crr\+Round }\end{DoxyParamCaption})}
+
+Metoda przedstawiajaca dozwolone czynnosci podczas rozgrywki. Gracz podczas swojej tury moze przerzucic wybrane kosci 3 razy, podejrzec karte innego gracza, zapisac stan rozgrywki, badz zakonczyc ja wczesniej. 
+\begin{DoxyParams}{Parameters}
+{\em current\+Player\+Scorecard} & Karta aktualnego gracza \\
+\hline
+{\em current\+Player\+Dice} & Zestaw kosci aktualnego gracza \\
+\hline
+{\em current\+Player} & Indeks aktualnego gracza \\
+\hline
+{\em crr\+Round} & Numer rundy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Liczba przerzutow jaka gracz wykonal 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\label{class_yahtzee_game_aae7fc8abb11988e3d036cacde91ac7ad}} 
+\index{YahtzeeGame@{YahtzeeGame}!players@{players}}
+\index{players@{players}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{players}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Yahtzee\+Game\+::players\hspace{0.3cm}{\ttfamily [private]}}
+
+Wektor z imionami graczy. \mbox{\label{class_yahtzee_game_a296c3b61c359442c997a78802de0c007}} 
+\index{YahtzeeGame@{YahtzeeGame}!scorecardHolder@{scorecardHolder}}
+\index{scorecardHolder@{scorecardHolder}!YahtzeeGame@{YahtzeeGame}}
+\doxysubsubsection{scorecardHolder}
+{\footnotesize\ttfamily std\+::map$<$std\+::string, std\+::shared\+\_\+ptr$<$\textbf{ scorecard}$>$ $>$ Yahtzee\+Game\+::scorecard\+Holder\hspace{0.3cm}{\ttfamily [private]}}
+
+Mapa z wskaznikami na karty graczy. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Yahtzee.\+h}\item 
+\textbf{ yahtzee.\+cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,102 @@
+----- Wyniki -----
+Gracz: A: 25pkt.
+Gracz: B: 0pkt.
+Gracz: C: 0pkt.
+Gracz: D: 0pkt.
+Gracz: E: 0pkt.
+----- Karty graczy -----
+O to karta gracza A: 
+Kategoria 1 (suma wyrzuconych 1): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 2 (suma wyrzuconych 2): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 3 (suma wyrzuconych 3): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 4 (suma wyrzuconych 4): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 5 (suma wyrzuconych 5): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 6 (suma wyrzuconych 6): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+---------------
+Kategoria 7 (3 jednakowe kosci - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 8 (4 jednakowe kosci - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 9 (Full - 3 jednakowe kosci + 2 jednakowe kosci - 25pkt): 25pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 10 (Maly strit - sekwencja 4 kolejnych oczek - 30pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 11 (Duzy strit - sekwencja 5 kolejnych oczek - 40pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 12 (General (Yahtzee) - 5 jednakowych rzutow - 50pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 13 (Szansa - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+---------------
+Suma punktow: 25
+---------------
+---------------
+O to karta gracza B: 
+Kategoria 1 (suma wyrzuconych 1): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 2 (suma wyrzuconych 2): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 3 (suma wyrzuconych 3): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 4 (suma wyrzuconych 4): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 5 (suma wyrzuconych 5): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 6 (suma wyrzuconych 6): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+---------------
+Kategoria 7 (3 jednakowe kosci - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 8 (4 jednakowe kosci - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 9 (Full - 3 jednakowe kosci + 2 jednakowe kosci - 25pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 10 (Maly strit - sekwencja 4 kolejnych oczek - 30pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 11 (Duzy strit - sekwencja 5 kolejnych oczek - 40pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 12 (General (Yahtzee) - 5 jednakowych rzutow - 50pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 13 (Szansa - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+---------------
+Suma punktow: 0
+---------------
+---------------
+O to karta gracza C: 
+Kategoria 1 (suma wyrzuconych 1): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 2 (suma wyrzuconych 2): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 3 (suma wyrzuconych 3): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 4 (suma wyrzuconych 4): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 5 (suma wyrzuconych 5): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 6 (suma wyrzuconych 6): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+---------------
+Kategoria 7 (3 jednakowe kosci - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 8 (4 jednakowe kosci - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 9 (Full - 3 jednakowe kosci + 2 jednakowe kosci - 25pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 10 (Maly strit - sekwencja 4 kolejnych oczek - 30pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 11 (Duzy strit - sekwencja 5 kolejnych oczek - 40pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 12 (General (Yahtzee) - 5 jednakowych rzutow - 50pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 13 (Szansa - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+---------------
+Suma punktow: 0
+---------------
+---------------
+O to karta gracza D: 
+Kategoria 1 (suma wyrzuconych 1): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 2 (suma wyrzuconych 2): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 3 (suma wyrzuconych 3): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 4 (suma wyrzuconych 4): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 5 (suma wyrzuconych 5): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 6 (suma wyrzuconych 6): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+---------------
+Kategoria 7 (3 jednakowe kosci - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 8 (4 jednakowe kosci - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 9 (Full - 3 jednakowe kosci + 2 jednakowe kosci - 25pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 10 (Maly strit - sekwencja 4 kolejnych oczek - 30pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 11 (Duzy strit - sekwencja 5 kolejnych oczek - 40pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 12 (General (Yahtzee) - 5 jednakowych rzutow - 50pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 13 (Szansa - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+---------------
+Suma punktow: 0
+---------------
+---------------
+O to karta gracza E: 
+Kategoria 1 (suma wyrzuconych 1): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 2 (suma wyrzuconych 2): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 3 (suma wyrzuconych 3): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 4 (suma wyrzuconych 4): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 5 (suma wyrzuconych 5): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 6 (suma wyrzuconych 6): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+---------------
+Kategoria 7 (3 jednakowe kosci - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 8 (4 jednakowe kosci - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 9 (Full - 3 jednakowe kosci + 2 jednakowe kosci - 25pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 10 (Maly strit - sekwencja 4 kolejnych oczek - 30pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 11 (Duzy strit - sekwencja 5 kolejnych oczek - 40pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 12 (General (Yahtzee) - 5 jednakowych rzutow - 50pkt): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+Kategoria 13 (Szansa - suma wszystkich oczek): 0pkt --- Czy zostalo tu cos juz wpisane? - Tak
+---------------
+Suma punktow: 0
+---------------
+---------------

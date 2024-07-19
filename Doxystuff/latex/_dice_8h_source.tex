@@ -1,0 +1,23 @@
+\doxysection{Dice.\+h}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}Die.h"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <Windows.h>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}FunctionsH.h"{}}}
+\DoxyCodeLine{10 \textcolor{keyword}{class }dice : \textcolor{keyword}{public} die}
+\DoxyCodeLine{11 \{}
+\DoxyCodeLine{12     std::vector<die> heldDice; }
+\DoxyCodeLine{14 \textcolor{keyword}{public}:}
+\DoxyCodeLine{20     \textcolor{keywordtype}{void} Reroll(std::vector<int>\& indexes, \textcolor{keywordtype}{bool}\& canReroll, \textcolor{keywordtype}{int}\& rerollCounter);}
+\DoxyCodeLine{29     \textcolor{keywordtype}{void} RollMenu(std::vector<int>\& indexes, \textcolor{keywordtype}{bool}\& canReroll, \textcolor{keywordtype}{int}\& rerollCounter, std::string\& answer, std::shared\_ptr<dice>\& currentPlayerDice);}
+\DoxyCodeLine{32     \textcolor{keywordtype}{void} Roll(); \textcolor{comment}{//dorobic cos z funkcja wirtualna moze? Tak zeby byl polimorfizm (To chyba jest to)}}
+\DoxyCodeLine{38 \textcolor{comment}{}    \textcolor{keywordtype}{int} addValues(\textcolor{keywordtype}{int}\& square, \textcolor{keywordtype}{int}\& rerollCTR);    }
+\DoxyCodeLine{41     \textcolor{keywordtype}{void} WriteVector();}
+\DoxyCodeLine{46     std::vector<die>\& GetDice(); }
+\DoxyCodeLine{49     dice();}
+\DoxyCodeLine{52     \string~dice();}
+\DoxyCodeLine{53 \};}
+
+\end{DoxyCode}

@@ -1,0 +1,118 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{}%
+\contentsline {chapter}{\numberline {3}File Index}{5}{}%
+\contentsline {section}{\numberline {3.1}File List}{5}{}%
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{}%
+\contentsline {section}{\numberline {4.1}dice Class Reference}{7}{}%
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{7}{}%
+\contentsline {subsection}{\numberline {4.1.2}Constructor \& Destructor Documentation}{8}{}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}dice()}{8}{}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}$\sim $dice()}{8}{}%
+\contentsline {subsection}{\numberline {4.1.3}Member Function Documentation}{8}{}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}addValues()}{8}{}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}GetDice()}{8}{}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}Reroll()}{9}{}%
+\contentsline {subsubsection}{\numberline {4.1.3.4}Roll()}{9}{}%
+\contentsline {subsubsection}{\numberline {4.1.3.5}RollMenu()}{9}{}%
+\contentsline {subsubsection}{\numberline {4.1.3.6}WriteVector()}{10}{}%
+\contentsline {subsection}{\numberline {4.1.4}Member Data Documentation}{10}{}%
+\contentsline {subsubsection}{\numberline {4.1.4.1}heldDice}{10}{}%
+\contentsline {section}{\numberline {4.2}die Class Reference}{10}{}%
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{11}{}%
+\contentsline {subsection}{\numberline {4.2.2}Constructor \& Destructor Documentation}{11}{}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}die()}{11}{}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}$\sim $die()}{11}{}%
+\contentsline {subsection}{\numberline {4.2.3}Member Function Documentation}{11}{}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}GetNumber()}{12}{}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}Roll()}{12}{}%
+\contentsline {subsubsection}{\numberline {4.2.3.3}set()}{12}{}%
+\contentsline {subsection}{\numberline {4.2.4}Member Data Documentation}{12}{}%
+\contentsline {subsubsection}{\numberline {4.2.4.1}number}{12}{}%
+\contentsline {section}{\numberline {4.3}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu Class Reference}{13}{}%
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{13}{}%
+\contentsline {subsection}{\numberline {4.3.2}Constructor \& Destructor Documentation}{13}{}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}MainMenu()}{13}{}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}$\sim $MainMenu()}{14}{}%
+\contentsline {subsection}{\numberline {4.3.3}Member Function Documentation}{14}{}%
+\contentsline {subsubsection}{\numberline {4.3.3.1}DrawMenu()}{14}{}%
+\contentsline {subsubsection}{\numberline {4.3.3.2}getChosenFile()}{14}{}%
+\contentsline {subsubsection}{\numberline {4.3.3.3}ShowRules()}{14}{}%
+\contentsline {subsection}{\numberline {4.3.4}Member Data Documentation}{15}{}%
+\contentsline {subsubsection}{\numberline {4.3.4.1}answer}{15}{}%
+\contentsline {section}{\numberline {4.4}scorecard Class Reference}{15}{}%
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{16}{}%
+\contentsline {subsection}{\numberline {4.4.2}Constructor \& Destructor Documentation}{16}{}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}scorecard()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{16}{}%
+\contentsline {subsubsection}{\numberline {4.4.2.2}scorecard()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{16}{}%
+\contentsline {subsubsection}{\numberline {4.4.2.3}$\sim $scorecard()}{16}{}%
+\contentsline {subsection}{\numberline {4.4.3}Member Function Documentation}{16}{}%
+\contentsline {subsubsection}{\numberline {4.4.3.1}getIsWritten()}{17}{}%
+\contentsline {subsubsection}{\numberline {4.4.3.2}getScore()}{17}{}%
+\contentsline {subsubsection}{\numberline {4.4.3.3}getScorecard()}{17}{}%
+\contentsline {subsubsection}{\numberline {4.4.3.4}getSet()}{18}{}%
+\contentsline {subsubsection}{\numberline {4.4.3.5}isFull()}{18}{}%
+\contentsline {subsubsection}{\numberline {4.4.3.6}setSet()}{18}{}%
+\contentsline {subsubsection}{\numberline {4.4.3.7}writePlayersScorecard()}{18}{}%
+\contentsline {subsubsection}{\numberline {4.4.3.8}writeScore()}{19}{}%
+\contentsline {subsection}{\numberline {4.4.4}Friends And Related Function Documentation}{19}{}%
+\contentsline {subsubsection}{\numberline {4.4.4.1}operator$<$$<$}{19}{}%
+\contentsline {subsection}{\numberline {4.4.5}Member Data Documentation}{20}{}%
+\contentsline {subsubsection}{\numberline {4.4.5.1}isWritten}{20}{}%
+\contentsline {subsubsection}{\numberline {4.4.5.2}scores}{20}{}%
+\contentsline {subsubsection}{\numberline {4.4.5.3}wholeScorecardSize}{20}{}%
+\contentsline {subsubsection}{\numberline {4.4.5.4}yourDice}{20}{}%
+\contentsline {section}{\numberline {4.5}Yahtzee\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game Class Reference}{20}{}%
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{21}{}%
+\contentsline {subsection}{\numberline {4.5.2}Constructor \& Destructor Documentation}{21}{}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}YahtzeeGame()}{21}{}%
+\contentsline {subsubsection}{\numberline {4.5.2.2}$\sim $YahtzeeGame()}{21}{}%
+\contentsline {subsection}{\numberline {4.5.3}Member Function Documentation}{22}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.1}getPlayerCount()}{22}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.2}getPlayersScorecard()}{22}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.3}getScorecard()}{22}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.4}getScorecards()}{22}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.5}isGameDone()}{23}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.6}loadTheGame()}{23}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.7}writeScorecardToFile()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{23}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.8}writeScorecardToFile()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{24}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.9}YahtzeeGameEnd()}{24}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.10}YahtzeeGameStart()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{24}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.11}YahtzeeGameStart()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{24}{}%
+\contentsline {subsubsection}{\numberline {4.5.3.12}YahtzeeMenu()}{25}{}%
+\contentsline {subsection}{\numberline {4.5.4}Member Data Documentation}{25}{}%
+\contentsline {subsubsection}{\numberline {4.5.4.1}players}{25}{}%
+\contentsline {subsubsection}{\numberline {4.5.4.2}scorecardHolder}{25}{}%
+\contentsline {chapter}{\numberline {5}File Documentation}{27}{}%
+\contentsline {section}{\numberline {5.1}dice.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{27}{}%
+\contentsline {section}{\numberline {5.2}Dice.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{27}{}%
+\contentsline {section}{\numberline {5.3}Dice.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{27}{}%
+\contentsline {section}{\numberline {5.4}die.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{28}{}%
+\contentsline {section}{\numberline {5.5}Die.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{28}{}%
+\contentsline {section}{\numberline {5.6}Die.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{28}{}%
+\contentsline {section}{\numberline {5.7}Functions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{28}{}%
+\contentsline {subsection}{\numberline {5.7.1}Function Documentation}{28}{}%
+\contentsline {subsubsection}{\numberline {5.7.1.1}bubbleSort()}{29}{}%
+\contentsline {subsubsection}{\numberline {5.7.1.2}comparePairs()}{29}{}%
+\contentsline {section}{\numberline {5.8}Functions\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}H.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{29}{}%
+\contentsline {subsection}{\numberline {5.8.1}Function Documentation}{29}{}%
+\contentsline {subsubsection}{\numberline {5.8.1.1}bubbleSort()}{30}{}%
+\contentsline {subsubsection}{\numberline {5.8.1.2}comparePairs()}{30}{}%
+\contentsline {section}{\numberline {5.9}Functions\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}H.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{30}{}%
+\contentsline {section}{\numberline {5.10}Gra\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}w\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Kosci.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{30}{}%
+\contentsline {subsection}{\numberline {5.10.1}Function Documentation}{31}{}%
+\contentsline {subsubsection}{\numberline {5.10.1.1}main()}{31}{}%
+\contentsline {section}{\numberline {5.11}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{31}{}%
+\contentsline {section}{\numberline {5.12}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{31}{}%
+\contentsline {section}{\numberline {5.13}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{31}{}%
+\contentsline {section}{\numberline {5.14}scorecard.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{32}{}%
+\contentsline {subsection}{\numberline {5.14.1}Function Documentation}{32}{}%
+\contentsline {subsubsection}{\numberline {5.14.1.1}operator$<$$<$()}{32}{}%
+\contentsline {section}{\numberline {5.15}Scorecard.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{32}{}%
+\contentsline {section}{\numberline {5.16}Scorecard.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{33}{}%
+\contentsline {section}{\numberline {5.17}yahtzee.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{33}{}%
+\contentsline {section}{\numberline {5.18}Yahtzee.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{33}{}%
+\contentsline {section}{\numberline {5.19}Yahtzee.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{33}{}%
+\contentsline {chapter}{Index}{35}{}%

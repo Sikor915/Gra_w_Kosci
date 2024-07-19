@@ -1,0 +1,237 @@
+\doxysection{scorecard Class Reference}
+\label{classscorecard}\index{scorecard@{scorecard}}
+
+
+Klasa zajmujaca sie karta wynikow gracza.  
+
+
+
+
+{\ttfamily \#include $<$Scorecard.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ write\+Score} (int \&index, \textbf{ dice} \&dice\+Set, int \&reroll\+CTR)
+\item 
+void \textbf{ set\+Set} (std\+::shared\+\_\+ptr$<$ \textbf{ dice} $>$ other\+Set)
+\item 
+bool \textbf{ is\+Full} ()
+\item 
+void \textbf{ write\+Players\+Scorecard} (std\+::string \&player\+Name)
+\item 
+std\+::shared\+\_\+ptr$<$ \textbf{ dice} $>$ \textbf{ get\+Set} ()
+\item 
+int $\ast$ \textbf{ get\+Scorecard} ()
+\item 
+bool $\ast$ \textbf{ get\+Is\+Written} ()
+\item 
+int \textbf{ get\+Score} ()
+\item 
+\textbf{ scorecard} ()
+\item 
+\textbf{ scorecard} (\textbf{ scorecard} \&other\+Scorecard)
+\item 
+\textbf{ $\sim$scorecard} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ scores} [\textbf{ whole\+Scorecard\+Size}] \{ 0 \}
+\item 
+bool \textbf{ is\+Written} [\textbf{ whole\+Scorecard\+Size}] \{ false \}
+\item 
+std\+::shared\+\_\+ptr$<$ \textbf{ dice} $>$ \textbf{ your\+Dice}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int \textbf{ whole\+Scorecard\+Size} = 13
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \textbf{ operator$<$$<$} (std\+::ostream \&os, \textbf{ scorecard} \&tmp)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa zajmujaca sie karta wynikow gracza. 
+
+Zapisuje wynik rzutu, sumuje punkty i wypisuje karte na ekranie. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{classscorecard_a3e2cb0f573570816f9f2f01b5f72517d}} 
+\index{scorecard@{scorecard}!scorecard@{scorecard}}
+\index{scorecard@{scorecard}!scorecard@{scorecard}}
+\doxysubsubsection{scorecard()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily scorecard\+::scorecard (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Konstruktor. Ustawia wskaznik na nowe kosci. \mbox{\label{classscorecard_abf263c53b9b70f105d61846d2f8da55a}} 
+\index{scorecard@{scorecard}!scorecard@{scorecard}}
+\index{scorecard@{scorecard}!scorecard@{scorecard}}
+\doxysubsubsection{scorecard()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily scorecard\+::scorecard (\begin{DoxyParamCaption}\item[{\textbf{ scorecard} \&}]{other\+Scorecard }\end{DoxyParamCaption})}
+
+Konstruktor kopiujacy. Ustawia wszystkie dane na takie same jak w podanej karcie. 
+\begin{DoxyParams}{Parameters}
+{\em other\+Scorecard} & Inna karta wynikow \\
+\hline
+\end{DoxyParams}
+\mbox{\label{classscorecard_acdd55d54151f376620e91b7b14030671}} 
+\index{scorecard@{scorecard}!````~scorecard@{$\sim$scorecard}}
+\index{````~scorecard@{$\sim$scorecard}!scorecard@{scorecard}}
+\doxysubsubsection{$\sim$scorecard()}
+{\footnotesize\ttfamily scorecard\+::$\sim$scorecard (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destruktor. Nie za wiele robi. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{classscorecard_a91c842e50dd0690bfb6f2f3f0ae3e3ec}} 
+\index{scorecard@{scorecard}!getIsWritten@{getIsWritten}}
+\index{getIsWritten@{getIsWritten}!scorecard@{scorecard}}
+\doxysubsubsection{getIsWritten()}
+{\footnotesize\ttfamily bool $\ast$ scorecard\+::get\+Is\+Written (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zwracajaca tablice z info co do zapisania karty wynikow. \begin{DoxyReturn}{Returns}
+Tablica is\+Written 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\doxyref{is\+Written}{p.}{classscorecard_a6626762ee0d3ce50d2837662c216d0f3} 
+\end{DoxySeeAlso}
+\mbox{\label{classscorecard_aea6d3754a21e305648b363c7247e5ced}} 
+\index{scorecard@{scorecard}!getScore@{getScore}}
+\index{getScore@{getScore}!scorecard@{scorecard}}
+\doxysubsubsection{getScore()}
+{\footnotesize\ttfamily int scorecard\+::get\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zwracajaca sume punktow. \begin{DoxyReturn}{Returns}
+Zsumowane punkty z karty wynikow 
+\end{DoxyReturn}
+\mbox{\label{classscorecard_a88d40eafc329269e6fd48f3b76916c87}} 
+\index{scorecard@{scorecard}!getScorecard@{getScorecard}}
+\index{getScorecard@{getScorecard}!scorecard@{scorecard}}
+\doxysubsubsection{getScorecard()}
+{\footnotesize\ttfamily int $\ast$ scorecard\+::get\+Scorecard (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zwracajaca tablice wynikow. \begin{DoxyReturn}{Returns}
+Tablica scores 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\doxyref{scores}{p.}{classscorecard_abf39252ec2a8e6d6a3bfcdbae0dc7109} 
+\end{DoxySeeAlso}
+\mbox{\label{classscorecard_af2e5161e232061a3b2836dac43e1cf0a}} 
+\index{scorecard@{scorecard}!getSet@{getSet}}
+\index{getSet@{getSet}!scorecard@{scorecard}}
+\doxysubsubsection{getSet()}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$ \textbf{ dice} $>$ scorecard\+::get\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda zwracajaca wskaznik na kosci gracza. \begin{DoxyReturn}{Returns}
+Wskaznik na kosci 
+\end{DoxyReturn}
+\mbox{\label{classscorecard_a3c295ad6c9093c2533dd13b5d0fdfaf7}} 
+\index{scorecard@{scorecard}!isFull@{isFull}}
+\index{isFull@{isFull}!scorecard@{scorecard}}
+\doxysubsubsection{isFull()}
+{\footnotesize\ttfamily bool scorecard\+::is\+Full (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja sprawdzajaca czy karty sa pelne. Sprawdza czy wszystkie pola w tablicy is\+Written sa ustawione na true. \begin{DoxyReturn}{Returns}
+True albo false. Zazwyczaj false 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\doxyref{is\+Written}{p.}{classscorecard_a6626762ee0d3ce50d2837662c216d0f3} 
+\end{DoxySeeAlso}
+\mbox{\label{classscorecard_a302ebbff0974d03924bbb7e203fa8aa0}} 
+\index{scorecard@{scorecard}!setSet@{setSet}}
+\index{setSet@{setSet}!scorecard@{scorecard}}
+\doxysubsubsection{setSet()}
+{\footnotesize\ttfamily void scorecard\+::set\+Set (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \textbf{ dice} $>$}]{other\+Set }\end{DoxyParamCaption})}
+
+Funkcja ustawiajaca wskaznik na podany zestaw kosci. 
+\begin{DoxyParams}{Parameters}
+{\em other\+Set} & Wskaznik na inne kosci \\
+\hline
+\end{DoxyParams}
+\mbox{\label{classscorecard_ab7ba85ac999f388f171ac1a62735004a}} 
+\index{scorecard@{scorecard}!writePlayersScorecard@{writePlayersScorecard}}
+\index{writePlayersScorecard@{writePlayersScorecard}!scorecard@{scorecard}}
+\doxysubsubsection{writePlayersScorecard()}
+{\footnotesize\ttfamily void scorecard\+::write\+Players\+Scorecard (\begin{DoxyParamCaption}\item[{std\+::string \&}]{player\+Name }\end{DoxyParamCaption})}
+
+Funkcja wypisujaca karte podanego gracza. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Name} & Imie gracza \\
+\hline
+\end{DoxyParams}
+\mbox{\label{classscorecard_a3572c2c3ccbb26aa8df9101300de4592}} 
+\index{scorecard@{scorecard}!writeScore@{writeScore}}
+\index{writeScore@{writeScore}!scorecard@{scorecard}}
+\doxysubsubsection{writeScore()}
+{\footnotesize\ttfamily void scorecard\+::write\+Score (\begin{DoxyParamCaption}\item[{int \&}]{index,  }\item[{\textbf{ dice} \&}]{dice\+Set,  }\item[{int \&}]{reroll\+CTR }\end{DoxyParamCaption})}
+
+Funkcja wpisujaca do podanej komorki wynik rzutu. 
+\begin{DoxyParams}{Parameters}
+{\em index} & Indeks pola do wpisania \\
+\hline
+{\em dice\+Set} & Zestaw rzuconych kosci \\
+\hline
+{\em reroll\+CTR} & Ilosc przerzutow jakie gracz wykonal podczas tury \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+add\+Values 
+
+\doxyref{scores}{p.}{classscorecard_abf39252ec2a8e6d6a3bfcdbae0dc7109} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\label{classscorecard_a6193916348821b229337d238698ce933}} 
+\index{scorecard@{scorecard}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!scorecard@{scorecard}}
+\doxysubsubsection{operator$<$$<$}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{\textbf{ scorecard} \&}]{tmp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Operator wypisywania. Wypisuje ladnie wygladajaca i opisana karte wynikow aktualnego gracza. 
+\begin{DoxyParams}{Parameters}
+{\em os} & Zwykly ostream \\
+\hline
+{\em tmp} & Karta wynikow gracza \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ostream os 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\label{classscorecard_a6626762ee0d3ce50d2837662c216d0f3}} 
+\index{scorecard@{scorecard}!isWritten@{isWritten}}
+\index{isWritten@{isWritten}!scorecard@{scorecard}}
+\doxysubsubsection{isWritten}
+{\footnotesize\ttfamily bool scorecard\+::is\+Written[\textbf{ whole\+Scorecard\+Size}] \{ false \}\hspace{0.3cm}{\ttfamily [private]}}
+
+Tablica z informacja czy cos zostalo wpisane w dana komorke w karcie. \mbox{\label{classscorecard_abf39252ec2a8e6d6a3bfcdbae0dc7109}} 
+\index{scorecard@{scorecard}!scores@{scores}}
+\index{scores@{scores}!scorecard@{scorecard}}
+\doxysubsubsection{scores}
+{\footnotesize\ttfamily int scorecard\+::scores[\textbf{ whole\+Scorecard\+Size}] \{ 0 \}\hspace{0.3cm}{\ttfamily [private]}}
+
+Tablica z wynikami gracza. \mbox{\label{classscorecard_ac562e58b27fe8dbf0b2d1ce01cd72395}} 
+\index{scorecard@{scorecard}!wholeScorecardSize@{wholeScorecardSize}}
+\index{wholeScorecardSize@{wholeScorecardSize}!scorecard@{scorecard}}
+\doxysubsubsection{wholeScorecardSize}
+{\footnotesize\ttfamily const int scorecard\+::whole\+Scorecard\+Size = 13\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Wielkosc karty wynikow. \mbox{\label{classscorecard_a746c70d67e9d61b4135dacc71e60a458}} 
+\index{scorecard@{scorecard}!yourDice@{yourDice}}
+\index{yourDice@{yourDice}!scorecard@{scorecard}}
+\doxysubsubsection{yourDice}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\textbf{ dice}$>$ scorecard\+::your\+Dice\hspace{0.3cm}{\ttfamily [private]}}
+
+Wskaznik na zestaw kosci gracza. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Scorecard.\+h}\item 
+\textbf{ scorecard.\+cpp}\end{DoxyCompactItemize}

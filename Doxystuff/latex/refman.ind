@@ -1,0 +1,226 @@
+\begin{theindex}
+
+  \item {$\sim$MainMenu}
+    \subitem {MainMenu}, 13
+  \item {$\sim$YahtzeeGame}
+    \subitem {YahtzeeGame}, 21
+  \item {$\sim$dice}
+    \subitem {dice}, 8
+  \item {$\sim$die}
+    \subitem {die}, 11
+  \item {$\sim$scorecard}
+    \subitem {scorecard}, 16
+
+  \indexspace
+
+  \item {addValues}
+    \subitem {dice}, 8
+  \item {answer}
+    \subitem {MainMenu}, 15
+
+  \indexspace
+
+  \item {bubbleSort}
+    \subitem {Functions.cpp}, 28
+    \subitem {FunctionsH.h}, 29
+
+  \indexspace
+
+  \item {comparePairs}
+    \subitem {Functions.cpp}, 29
+    \subitem {FunctionsH.h}, 30
+
+  \indexspace
+
+  \item {dice}, 7
+    \subitem {$\sim$dice}, 8
+    \subitem {addValues}, 8
+    \subitem {dice}, 8
+    \subitem {GetDice}, 8
+    \subitem {heldDice}, 10
+    \subitem {Reroll}, 9
+    \subitem {Roll}, 9
+    \subitem {RollMenu}, 9
+    \subitem {WriteVector}, 10
+  \item {dice.cpp}, 27
+  \item {Dice.h}, 27
+  \item {die}, 10
+    \subitem {$\sim$die}, 11
+    \subitem {die}, 11
+    \subitem {GetNumber}, 11
+    \subitem {number}, 12
+    \subitem {Roll}, 12
+    \subitem {set}, 12
+  \item {die.cpp}, 28
+  \item {Die.h}, 28
+  \item {DrawMenu}
+    \subitem {MainMenu}, 14
+
+  \indexspace
+
+  \item {Functions.cpp}, 28
+    \subitem {bubbleSort}, 28
+    \subitem {comparePairs}, 29
+  \item {FunctionsH.h}, 29
+    \subitem {bubbleSort}, 29
+    \subitem {comparePairs}, 30
+
+  \indexspace
+
+  \item {getChosenFile}
+    \subitem {MainMenu}, 14
+  \item {GetDice}
+    \subitem {dice}, 8
+  \item {getIsWritten}
+    \subitem {scorecard}, 16
+  \item {GetNumber}
+    \subitem {die}, 11
+  \item {getPlayerCount}
+    \subitem {YahtzeeGame}, 22
+  \item {getPlayersScorecard}
+    \subitem {YahtzeeGame}, 22
+  \item {getScore}
+    \subitem {scorecard}, 17
+  \item {getScorecard}
+    \subitem {scorecard}, 17
+    \subitem {YahtzeeGame}, 22
+  \item {getScorecards}
+    \subitem {YahtzeeGame}, 22
+  \item {getSet}
+    \subitem {scorecard}, 17
+  \item {Gra\_w\_Kosci.cpp}, 30
+    \subitem {main}, 31
+
+  \indexspace
+
+  \item {heldDice}
+    \subitem {dice}, 10
+
+  \indexspace
+
+  \item {isFull}
+    \subitem {scorecard}, 18
+  \item {isGameDone}
+    \subitem {YahtzeeGame}, 23
+  \item {isWritten}
+    \subitem {scorecard}, 20
+
+  \indexspace
+
+  \item {loadTheGame}
+    \subitem {YahtzeeGame}, 23
+
+  \indexspace
+
+  \item {main}
+    \subitem {Gra\_w\_Kosci.cpp}, 31
+  \item {MainMenu}, 13
+    \subitem {$\sim$MainMenu}, 13
+    \subitem {answer}, 15
+    \subitem {DrawMenu}, 14
+    \subitem {getChosenFile}, 14
+    \subitem {MainMenu}, 13
+    \subitem {ShowRules}, 14
+  \item {MainMenu.cpp}, 31
+  \item {MainMenu.h}, 31
+
+  \indexspace
+
+  \item {number}
+    \subitem {die}, 12
+
+  \indexspace
+
+  \item {operator$<$$<$}
+    \subitem {scorecard}, 19
+    \subitem {scorecard.cpp}, 32
+
+  \indexspace
+
+  \item {players}
+    \subitem {YahtzeeGame}, 25
+
+  \indexspace
+
+  \item {Reroll}
+    \subitem {dice}, 9
+  \item {Roll}
+    \subitem {dice}, 9
+    \subitem {die}, 12
+  \item {RollMenu}
+    \subitem {dice}, 9
+
+  \indexspace
+
+  \item {scorecard}, 15
+    \subitem {$\sim$scorecard}, 16
+    \subitem {getIsWritten}, 16
+    \subitem {getScore}, 17
+    \subitem {getScorecard}, 17
+    \subitem {getSet}, 17
+    \subitem {isFull}, 18
+    \subitem {isWritten}, 20
+    \subitem {operator$<$$<$}, 19
+    \subitem {scorecard}, 16
+    \subitem {scores}, 20
+    \subitem {setSet}, 18
+    \subitem {wholeScorecardSize}, 20
+    \subitem {writePlayersScorecard}, 18
+    \subitem {writeScore}, 19
+    \subitem {yourDice}, 20
+  \item {scorecard.cpp}, 32
+    \subitem {operator$<$$<$}, 32
+  \item {Scorecard.h}, 32
+  \item {scorecardHolder}
+    \subitem {YahtzeeGame}, 25
+  \item {scores}
+    \subitem {scorecard}, 20
+  \item {set}
+    \subitem {die}, 12
+  \item {setSet}
+    \subitem {scorecard}, 18
+  \item {ShowRules}
+    \subitem {MainMenu}, 14
+
+  \indexspace
+
+  \item {wholeScorecardSize}
+    \subitem {scorecard}, 20
+  \item {writePlayersScorecard}
+    \subitem {scorecard}, 18
+  \item {writeScore}
+    \subitem {scorecard}, 19
+  \item {writeScorecardToFile}
+    \subitem {YahtzeeGame}, 23
+  \item {WriteVector}
+    \subitem {dice}, 10
+
+  \indexspace
+
+  \item {yahtzee.cpp}, 33
+  \item {Yahtzee.h}, 33
+  \item {YahtzeeGame}, 20
+    \subitem {$\sim$YahtzeeGame}, 21
+    \subitem {getPlayerCount}, 22
+    \subitem {getPlayersScorecard}, 22
+    \subitem {getScorecard}, 22
+    \subitem {getScorecards}, 22
+    \subitem {isGameDone}, 23
+    \subitem {loadTheGame}, 23
+    \subitem {players}, 25
+    \subitem {scorecardHolder}, 25
+    \subitem {writeScorecardToFile}, 23
+    \subitem {YahtzeeGame}, 21
+    \subitem {YahtzeeGameEnd}, 24
+    \subitem {YahtzeeGameStart}, 24
+    \subitem {YahtzeeMenu}, 25
+  \item {YahtzeeGameEnd}
+    \subitem {YahtzeeGame}, 24
+  \item {YahtzeeGameStart}
+    \subitem {YahtzeeGame}, 24
+  \item {YahtzeeMenu}
+    \subitem {YahtzeeGame}, 25
+  \item {yourDice}
+    \subitem {scorecard}, 20
+
+\end{theindex}

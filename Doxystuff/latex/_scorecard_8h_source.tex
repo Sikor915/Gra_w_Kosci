@@ -1,0 +1,28 @@
+\doxysection{Scorecard.\+h}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}Dice.h"{}}}
+\DoxyCodeLine{7 \textcolor{keyword}{class }scorecard}
+\DoxyCodeLine{8 \{}
+\DoxyCodeLine{9     \textcolor{keyword}{const} \textcolor{keyword}{static} \textcolor{keywordtype}{int} wholeScorecardSize = 13; }
+\DoxyCodeLine{10     \textcolor{keywordtype}{int} scores[wholeScorecardSize]\{ 0 \}; }
+\DoxyCodeLine{11     \textcolor{keywordtype}{bool} isWritten[wholeScorecardSize]\{ \textcolor{keyword}{false} \}; }
+\DoxyCodeLine{12     std::shared\_ptr<dice> yourDice; }
+\DoxyCodeLine{14 \textcolor{keyword}{public}:}
+\DoxyCodeLine{22     \textcolor{keywordtype}{void} writeScore(\textcolor{keywordtype}{int}\& index, dice\& diceSet, \textcolor{keywordtype}{int}\& rerollCTR);}
+\DoxyCodeLine{23     }
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} setSet(std::shared\_ptr<dice> otherSet);}
+\DoxyCodeLine{33     \textcolor{keywordtype}{bool} isFull();}
+\DoxyCodeLine{37     \textcolor{keywordtype}{void} writePlayersScorecard(std::string\& playerName);}
+\DoxyCodeLine{41     std::shared\_ptr<dice> getSet();}
+\DoxyCodeLine{46     \textcolor{keywordtype}{int}* getScorecard();}
+\DoxyCodeLine{51     \textcolor{keywordtype}{bool}* getIsWritten();}
+\DoxyCodeLine{55     \textcolor{keywordtype}{int} getScore();}
+\DoxyCodeLine{58     scorecard();}
+\DoxyCodeLine{62     scorecard(scorecard\& otherScorecard);}
+\DoxyCodeLine{65     \string~scorecard();}
+\DoxyCodeLine{72     \textcolor{keyword}{friend} std::ostream\& operator<<(std::ostream\& os, scorecard\& tmp);}
+\DoxyCodeLine{73 \};}
+
+\end{DoxyCode}

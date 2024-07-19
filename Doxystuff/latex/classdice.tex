@@ -1,0 +1,160 @@
+\doxysection{dice Class Reference}
+\label{classdice}\index{dice@{dice}}
+
+
+Klasa opisujaca zestaw kosci gracza.  
+
+
+
+
+{\ttfamily \#include $<$Dice.\+h$>$}
+
+Inheritance diagram for dice\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classdice}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ Reroll} (std\+::vector$<$ int $>$ \&indexes, bool \&can\+Reroll, int \&reroll\+Counter)
+\item 
+void \textbf{ Roll\+Menu} (std\+::vector$<$ int $>$ \&indexes, bool \&can\+Reroll, int \&reroll\+Counter, std\+::string \&answer, std\+::shared\+\_\+ptr$<$ \textbf{ dice} $>$ \&current\+Player\+Dice)
+\item 
+void \textbf{ Roll} ()
+\item 
+int \textbf{ add\+Values} (int \&square, int \&reroll\+CTR)
+\item 
+void \textbf{ Write\+Vector} ()
+\item 
+std\+::vector$<$ \textbf{ die} $>$ \& \textbf{ Get\+Dice} ()
+\item 
+\textbf{ dice} ()
+\item 
+\textbf{ $\sim$dice} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \textbf{ die} $>$ \textbf{ held\+Dice}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa opisujaca zestaw kosci gracza. 
+
+Przerzuca kosci, sumuje wartosci. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{classdice_adfe43c5d338217b1c97c7b4cae67ae0b}} 
+\index{dice@{dice}!dice@{dice}}
+\index{dice@{dice}!dice@{dice}}
+\doxysubsubsection{dice()}
+{\footnotesize\ttfamily dice\+::dice (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Konstruktor. Wrzuca do wektora 5 kosci D6. \mbox{\label{classdice_aaa88692f88489a1e7f5c8fa4f3120b0e}} 
+\index{dice@{dice}!````~dice@{$\sim$dice}}
+\index{````~dice@{$\sim$dice}!dice@{dice}}
+\doxysubsubsection{$\sim$dice()}
+{\footnotesize\ttfamily dice\+::$\sim$dice (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destruktor. Nie za wiele robi ale sie stara i za to go cenimy. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{classdice_a0addc5548ca567156edb93259fe48de5}} 
+\index{dice@{dice}!addValues@{addValues}}
+\index{addValues@{addValues}!dice@{dice}}
+\doxysubsubsection{addValues()}
+{\footnotesize\ttfamily int dice\+::add\+Values (\begin{DoxyParamCaption}\item[{int \&}]{square,  }\item[{int \&}]{reroll\+CTR }\end{DoxyParamCaption})}
+
+Funkcja sumujaca oczka na kosciach. 
+\begin{DoxyParams}{Parameters}
+{\em square} & Numer pola do ktorego gracz chce wpisac rzut \\
+\hline
+{\em reroll\+CTR} & Licznik przerzutow jakie gracz wykonal \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\doxyref{bubble\+Sort}{p.}{_functions_8cpp_a80a64c660726e8cfc7f933482004210f} 
+\end{DoxySeeAlso}
+\mbox{\label{classdice_af1a9d344e99ffb12ff0cec4b70f61103}} 
+\index{dice@{dice}!GetDice@{GetDice}}
+\index{GetDice@{GetDice}!dice@{dice}}
+\doxysubsubsection{GetDice()}
+{\footnotesize\ttfamily std\+::vector$<$ \textbf{ die} $>$ \& dice\+::\+Get\+Dice (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Getter wektora z kosciami. \begin{DoxyReturn}{Returns}
+Wektor z kosciami 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\doxyref{held\+Dice}{p.}{classdice_a264f14a5a7f72298468b9a9cd88390fe} 
+\end{DoxySeeAlso}
+\mbox{\label{classdice_a49995b4d360671fbe033c999ed13f4d4}} 
+\index{dice@{dice}!Reroll@{Reroll}}
+\index{Reroll@{Reroll}!dice@{dice}}
+\doxysubsubsection{Reroll()}
+{\footnotesize\ttfamily void dice\+::\+Reroll (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$ \&}]{indexes,  }\item[{bool \&}]{can\+Reroll,  }\item[{int \&}]{reroll\+Counter }\end{DoxyParamCaption})}
+
+Funkcja przerzucajaca kosci gracza. 
+\begin{DoxyParams}{Parameters}
+{\em indexes} & Indeksy kosci do przerzutu \\
+\hline
+{\em can\+Reroll} & Zmienna boolowska pilnujaca czy gracz moze jeszcze przerzucac \\
+\hline
+{\em reroll\+Counter} & Licznik przerzutow \\
+\hline
+\end{DoxyParams}
+\mbox{\label{classdice_a8086e5de4cfc30e8a99f94f8e8d3da24}} 
+\index{dice@{dice}!Roll@{Roll}}
+\index{Roll@{Roll}!dice@{dice}}
+\doxysubsubsection{Roll()}
+{\footnotesize\ttfamily void dice\+::\+Roll (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Funkcja rzucajaca kosciami poraz pierwszy. 
+
+Reimplemented from \textbf{ die} \doxyref{}{p.}{classdie_a771930cfd6f8e9be39a59fb5fc6b371d}.
+
+\mbox{\label{classdice_a031f86b6718817c8c128f1ceafa19733}} 
+\index{dice@{dice}!RollMenu@{RollMenu}}
+\index{RollMenu@{RollMenu}!dice@{dice}}
+\doxysubsubsection{RollMenu()}
+{\footnotesize\ttfamily void dice\+::\+Roll\+Menu (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$ \&}]{indexes,  }\item[{bool \&}]{can\+Reroll,  }\item[{int \&}]{reroll\+Counter,  }\item[{std\+::string \&}]{answer,  }\item[{std\+::shared\+\_\+ptr$<$ \textbf{ dice} $>$ \&}]{current\+Player\+Dice }\end{DoxyParamCaption})}
+
+Funkcja odpowiadajaca za uzyskanie od gracza indeksow kosci do przerzutu. 
+\begin{DoxyParams}{Parameters}
+{\em indexes} & Indeksy kosci do przerzutu \\
+\hline
+{\em can\+Reroll} & Zmienna boolowska pilnujaca czy gracz moze jeszcze przerzucac \\
+\hline
+{\em reroll\+Counter} & Licznik przerzutow \\
+\hline
+{\em answer} & Odpowiedz uzytkownika na pytanie co do przerzutu \\
+\hline
+{\em current\+Player\+Dice} & Wskaznik na kosci gracza \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\doxyref{Reroll}{p.}{classdice_a49995b4d360671fbe033c999ed13f4d4} 
+\end{DoxySeeAlso}
+\mbox{\label{classdice_a22f1d70f146692f37c5ea10319881ee5}} 
+\index{dice@{dice}!WriteVector@{WriteVector}}
+\index{WriteVector@{WriteVector}!dice@{dice}}
+\doxysubsubsection{WriteVector()}
+{\footnotesize\ttfamily void dice\+::\+Write\+Vector (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja wypisujaca wektor na ekranie 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\label{classdice_a264f14a5a7f72298468b9a9cd88390fe}} 
+\index{dice@{dice}!heldDice@{heldDice}}
+\index{heldDice@{heldDice}!dice@{dice}}
+\doxysubsubsection{heldDice}
+{\footnotesize\ttfamily std\+::vector$<$\textbf{ die}$>$ dice\+::held\+Dice\hspace{0.3cm}{\ttfamily [private]}}
+
+Wektor z obiektami klasy \char`\"{}\+Die\char`\"{} czyli kosciami. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Dice.\+h}\item 
+\textbf{ dice.\+cpp}\end{DoxyCompactItemize}

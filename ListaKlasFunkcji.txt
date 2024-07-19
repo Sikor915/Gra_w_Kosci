@@ -1,0 +1,7 @@
+Co jest potrzebne do Yahtzee:
+Klasy: Kostka, Kości, karta z wynikami gracza, przechowywalnia wszystkich kart graczy
+Funkcje w klasach:
+Kostka - rzut, odbierz wartość
+Kości - przerzut (z licznikiem przerzutów), odbierz kości
+Karta z wynikami - gdzie zapisać (z kontrolą czy pole jest puste), czy pełna , odbierz wyniki
+Przechowywalnia - dostęp do danej karty, odbierz wyniki ostateczne (zlicza punkty)
